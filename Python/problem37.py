@@ -35,7 +35,7 @@ def solution():
     i=10
     somme=0
     while (total<11):
-        if (truncatable(i)==True):
+        if (truncatable(i)):
             somme+=i
             print(i)
             total+=1
